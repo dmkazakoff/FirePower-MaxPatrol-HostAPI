@@ -29,4 +29,4 @@ RELEASE NOTES v0.1:
 	4) Not currently maps OS;
 	5) Not currently maps Client/Server services;
 
-
+This integration is not covered by Cisco TAC or BU Support and is absolutely enthusiastic.
