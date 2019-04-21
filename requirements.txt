@@ -1,0 +1,4 @@
+requests==2.21.0
+urllib3==1.24.2
+lxml==4.3.3
+transliterate==1.10.2
