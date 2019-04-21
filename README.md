@@ -22,12 +22,10 @@ FMC PART (STEP #2 - Operation):
 		$ sudo ./importer.sh
 
 RELEASE NOTES v0.1:
-	1) Correctly imports Vulnerability Scan results for hosts
-	2) UTF8 Scan results import and display on FMC
-	3) CVSS Score added to Title
-	4) Not currently maps OS
-	5) Not currently maps Client/Server services
+	1) Correctly imports Vulnerability Scan results for hosts;
+	2) UTF8 Scan results import and display on FMC;
+	3) CVSS Score added to Title;
+	4) Not currently maps OS;
+	5) Not currently maps Client/Server services;
 
 
-
-Cisco FirePower HostAPI integration connector for importing Vulnerability Scan results from Positive Technologies "MaxPatrol" Vulnerability Scanner, utilizing its ability to export XML reports. 
