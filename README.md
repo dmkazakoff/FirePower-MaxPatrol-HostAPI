@@ -22,6 +22,7 @@ FMC PART (STEP #2 - Operation):
 		$ sudo ./importer.sh
 
 RELEASE NOTES v0.1:
+
 	1) Correctly imports Vulnerability Scan results for hosts;
 	2) UTF8 Scan results import and display on FMC;
 	3) CVSS Score added to Title;
