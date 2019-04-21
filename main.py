@@ -97,6 +97,14 @@ def guess_os(software): # Just a guess by keywords =)
 
 path = os.path.join(os.path.dirname(__file__), 'reports')
 
+xmlfiles = 0
+for file in os.listdir(path):
+    if file.endswith(".xml"):
+        xmlfiles = 1
+if xmlfiles == 0:
+    print("Error: no XML files in reports directory! Exiting!")
+    exit()
+
 for filename in os.listdir(path):
     if not filename.endswith('.xml'): continue
     fullname = os.path.join(path, filename)
