@@ -1,15 +1,10 @@
 from lxml import etree as ET
 import socket
-import transliterate
 import os
-import glob
-import codecs
 import urllib
 import io
 import re
-import sys
 
-# csv = ''
 export_files = 0
 lb_limit = 1000
 lb_count = 0
@@ -159,14 +154,6 @@ for filename in os.listdir(path):
 
 
             if (vuln_with_cve == 1):
-                # print(u" - ID: {}".format(vulner_id))
-                # print(u" - Title: {}".format(vulner_title))
-                # print(u" - Short Description: {}".format(vulner_short_descr))
-                # print(u" - Description: {}".format(vulner_descr))
-                # print(u" - CVSS: {}".format(vulner_cvss))
-                # print(u" - BID: {}".format(vulner_bid))
-                # print(u" - CVE: {}".format(vulner_cve))
-                # print(u" - FIX: {}".format(vulner_fix))
                 vuln_db_global.append({'id': vulner_id, 'title': vulner_title, 'short_desc': vulner_short_descr, 'desc': vulner_descr, 'cvss': vulner_cvss, 'cve': vulner_cve, 'bid': vulner_bid, 'fix': vulner_fix})
                 vuln_with_cve = 0
                 vuln_parse = 0
@@ -269,7 +256,6 @@ for filename in os.listdir(path):
                                'services': host_db['services'], 'vulnerability': host_db['vulnerability']})
 
 # Writing CSV
-# csv = iterate_export();
 
 for host in host_db_global:
     csv = iterate_export();
