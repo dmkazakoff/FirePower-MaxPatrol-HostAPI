@@ -13,8 +13,9 @@ unzip -o perl-modules.zip -d /
 echo " - Unzipped Perl Modules"
 chmod -R 444 /usr/local/sf/lib/perl/5.10.1/SF/SFDataCorrelator/HostInput.pm
 chmod -R 755 /usr/lib/perl5/site_perl/5.10.1
-chmod +x importer.sh
-chown admin.admin ./export
 echo " - Restoring access rights"
+chmod +x importer.sh
 mkdir export
+chown admin.admin ./export
+chmod 777 ./export
 echo "Installation finished!"
