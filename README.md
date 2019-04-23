@@ -1,3 +1,5 @@
+Detailed video step-by-step manual: https://youtu.be/6M5lg82aECc
+
 FMC PART (STEP #0 - Preparation - !!! First time step only !!!):
 
 	1) Copy installer folder content (installer.sh, installer.zip) to FMC via SCP (for example to: "/Volume/home/admin/").
