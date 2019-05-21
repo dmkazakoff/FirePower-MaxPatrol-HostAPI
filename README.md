@@ -6,7 +6,7 @@ FMC PART (STEP #0 - Preparation - !!! First time step only !!!):
 	2) Make installer.sh executable:
 		$ chmod +x installer.sh
 	3) Run installer with sudo:
-		$ sudo installer.sh
+		$ sudo ./installer.sh
 	4) Go to FMC WEBGUI "Policies->Application Detectors->User Third-Party Mappings-> Create Product Map Set". Name it "MaxPatrolMap" and click Save, this is for future use.	
 
 SCRIPT PART (STEP #1 - Operation):
