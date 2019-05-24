@@ -1,8 +1,10 @@
 
 
 INSTALLATION (v0.2): 
+
 	- Run script with install option "install" like: "python main.py install"
 USAGE (v0.2):
+
     - Edit FMC related information at the beginning of the script using variables:
     	FMC_host  = <place fmc fqdn or IP address here for ssh>
 		FMC_login = <place username with cli/ssh access to FMC here>
@@ -12,7 +14,7 @@ USAGE (v0.2):
 
 RELEASE NOTES:
 
-v0.2:
+*v0.2:*
 	
 	1) Totally rebuilt and automated installation process and file transfer to FMC and remote command execution. No need to connect to FMC anymore, just run the script and you're done. 
 	2) Limited line count for single output file to 100 to not overwhelm the API. Fixes problem of not all the scan results been imported in big output files.
@@ -25,7 +27,7 @@ v0.2:
 	3) Built-in choise for key authentication on FMC.
 	4) Miscellaneous imrovements
 
-v0.1:
+*v0.1:*
 
 	Installation:
 	Detailed video step-by-step manual (for v0.1, see release notes v0.2 for changes): https://youtu.be/6M5lg82aECc
