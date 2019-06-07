@@ -2,7 +2,12 @@
 
 INSTALLATION (v0.2): 
 
+	- Edit FMC related information at the beginning of the script using variables:
+		FMC_host  = <place fmc fqdn or IP address here for ssh>
+		FMC_login = <place username with cli/ssh access to FMC here>
+		FMC_passw = <you can permanently save password in this variable, or modify this script to use key file authentication, by default you need to interactively put password for FMC login at runtime>
 	- Run script with install option "install" like: "python main.py install"
+
 USAGE (v0.2):
 
     - Edit FMC related information at the beginning of the script using variables:
